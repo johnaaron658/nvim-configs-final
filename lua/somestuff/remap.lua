@@ -7,5 +7,5 @@ vim.keymap.set("n", "<leader>/", function() require("Comment.api").toggle.linewi
 vim.keymap.set("v", "<leader>/", "<ESC><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<CR>")
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle);
 vim.keymap.set("n", "<A-q>", vim.cmd.noh);
-vim.keymap.set("n", "<leader>q", vim.cmd.q);
+vim.keymap.set("n", "<leader>x", vim.cmd.q);
 vim.keymap.set("n", "<A-w>", "<C-w>");
